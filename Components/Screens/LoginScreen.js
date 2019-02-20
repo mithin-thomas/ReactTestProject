@@ -1,16 +1,8 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow
- */
-
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View, SafeAreaView, Button} from 'react-native';
-import TextField from './Components/TextField/TextField'
+import TextField from '../TextField/TextField'
 
-export default class App extends React.Component {
+export default class LoginScreen extends React.Component {
 
    constructor() {
       super();
